@@ -496,10 +496,15 @@ Response: 200 { "id":"...", "name":"...", "email":"..." }
       </aside>
     </div>
     <footer class="container">
-      <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px">
-        <div class="muted">Created for you — detailed guide comparing stacks & education systems.</div>
-        <div>
-          <a class="cta" href="#" onclick="alert('I can export this to PDF or create a starter repo for you — tell me which.');return false;">Request PDF / Repo</a>
+      <div style="display:flex;justify-content:center;align-items:center;flex-wrap:wrap;gap:10px; min-height:48px;">
+        <div class="muted" style="text-align:center; font-size:1.08rem; font-weight:700; letter-spacing:0.5px; color:var(--accent); background:rgba(57,255,20,0.07); border-radius:8px; padding:8px 24px;">
+          <span style="vertical-align:middle; margin-right:7px;">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+              <circle cx="10" cy="10" r="9" stroke="#39ff14" stroke-width="2"/>
+              <path d="M6 10.5L9 13.5L14 7.5" stroke="#39ff14" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </span>
+          Created by Claytone.
         </div>
       </div>
     </footer>
@@ -515,37 +520,5 @@ Response: 200 { "id":"...", "name":"...", "email":"..." }
   </script>
 </body>
 </html>
-    
 
-</body>
-</html>
-        <div class="card">
-          <h3>Quick Tips</h3>
-          <ul style="color:var(--muted)">
-            <li>For national-scale: prefer Java / C++ + on-prem hosting</li>
-            <li>For AI: Python + in-house frameworks (or TensorFlow/Paddle)</li>
-            <li>Solo dev MVP: Django or Laravel for speed</li>
-          </ul>
-        </div>
-      </aside>
-    </div>
-    <footer class="container">
-      <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px">
-        <div class="muted">Created by Claytone.</div>
-        <div>
-          <a class="cta" href="#" onclick="alert('I can export this to PDF or create a starter repo for you — tell me which.');return false;">Request PDF / Repo</a>
-        </div>
-      </div>
-    </footer>
-  </div>
-  <script>
-    // Smooth scroll for TOC and pills
-    document.querySelectorAll('a[href^="#"]').forEach(a=>{
-      a.addEventListener('click',e=>{
-        e.preventDefault();
-        document.querySelector(a.getAttribute('href')).scrollIntoView({behavior:'smooth'});
-      });
-    });
-  </script>
-</body>
-</html>
+
